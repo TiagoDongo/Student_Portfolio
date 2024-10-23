@@ -1,7 +1,7 @@
 <div align='justify'>
     <h1 align='center'>Student_Portfolio</h1>
     <p>
-    Este projeto é um portfólio estudantil responsivo que apresenta alguns projetos acadêmicos. O portfólio foi desenvolvido com HTML, CSS e JavaScript, e tem o objetivo de mostrar projetos realizados durante o primeiro ano do curso de Engenharia Informática e Telecomunicações.
+    Este projeto é um portfólio estudantil responsivo que apresenta alguns projetos acadêmicos. O portfólio foi desenvolvido com HTML, CSS e JavaScript, e tem o objetivo de mostrar projetos realizados durante o curso de Engenharia Informática e Telecomunicações.
     </p>
 </div>
 
