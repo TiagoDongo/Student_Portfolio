@@ -196,6 +196,9 @@ nav .links a.active {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid #27272a;
+    padding: 5px;
+    border-radius: 14px;
 }
 
 .projetos .left .works-list .item .work-info h5 {
@@ -301,14 +304,22 @@ footer .socials{
     gap: 12px;
 }
 
-footer .socials a i {
+footer .socials a{
+    border: 1px solid #27272a;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+    border-radius: 8px;
+}
+
+footer .socials  i {
     font-size: 20px; /* Aumenta o tamanho do ícone */
 }
 
 
 .socials i{
     align-items: center;
-    padding: 10px;
     justify-content: center;
 }
 
@@ -395,9 +406,9 @@ footer .online i {
         margin-top: 20px;
     }
 
-    /*footer a.online {
+    footer a.online {
         display: none;
-    }*/
+    }
 }
 
 @media screen and (max-width: 576px) {
