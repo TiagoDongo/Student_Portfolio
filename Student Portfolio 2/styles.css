@@ -203,7 +203,6 @@ nav .links a.active{
 .projetos .projects-list .item .projet-info .discription{
     flex-wrap: wrap;
     display: flex;
-    text-align: justify;
 }
 
 .projetos .projects-list .item .projet-info .discription p{
@@ -441,7 +440,13 @@ nav .links a.active{
 
 @media screen and (max-width: 768px) {
     nav .links {
-        font-size: 16px;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .institutional-logo img{
+        width: 150px;
     }
 
     .sobre {
@@ -468,7 +473,12 @@ nav .links a.active{
         font-size: 30px;
     }
 
-    .sobre .left .info p, 
+    nav .institutional-logo{
+        display: none;
+    }
+
+    .sobre .left .info p,
+    .uta .about-uta .left p, 
     .projetos .projects-list .item .projet-info p, 
     .projetos .projects-list .item > p {
         font-size: 16px;
@@ -476,6 +486,15 @@ nav .links a.active{
 
     .projetos .projects-list .item{
         align-items: center;
+    }
+
+    .uta .about-uta .right img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .uta .about-uta .left > button{
+        width: 100%;
     }
 
     .projetos .projects-list .item > p{
